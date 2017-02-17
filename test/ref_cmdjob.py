@@ -109,4 +109,8 @@ Submits a command line job to Backburner.
 
 # 백버너 렌더 (콘솔에서 아래 명령어 실행)
 "C:/Program Files (x86)/Autodesk/Backburner/cmdjob.exe" -jobName "houdiniFarmTst" -manager "fxrendermanager" -priority 50 -taskList "C:/Users/KYUHO_~1/AppData/Local/Temp/houdiniFarmTst.txt" -taskName 1 "C:/Program Files/Side Effects Software/Houdini 15.5.480/bin/hbatch.exe" -c "render -V -f %tp2 %tp3 /out/mantra1; quit"  "//mg01/share/Minions_prj/RND/FX/scenes/Temp_s001_RnD_v001.hip"
+
+
+"C:/Program Files (x86)/Autodesk/Backburner/cmdjob.exe" -jobName "wyvern_scene" -description "" -manager alfredtools -priority 50 -taskList "C:/Users/KYUHO_~1/AppData/Local/Temp/wyvern_scene.txt" -taskName 1 "C:/Program Files/Autodesk/Maya2016/bin/Render" -r file -s %tp2 -e %tp3 -proj "Z:/2016_Dark_Avenger3/B_production" -rd "Z:/2016_Dark_Avenger3/B_production/images"  "Z:/2016_Dark_Avenger3/B_production/RND/cacheExport/wyvern_scene.mb"
+
 '''
